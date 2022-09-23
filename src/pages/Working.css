@@ -1,0 +1,39 @@
+.social-media-div {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+}
+.socialtwitter-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.twiiter-div {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.frame-div21,
+.working-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.working-div {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+}
